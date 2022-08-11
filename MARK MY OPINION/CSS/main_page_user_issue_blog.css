@@ -1,0 +1,74 @@
+
+#user_issue{
+    visibility: hidden;
+    opacity: 0;
+    user-select: none;
+    transition: 0.5s;
+
+}
+
+#user_issue.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.user_issue{
+    position: absolute;
+    top:11em;
+    left: 23em;
+    width: fit-content;
+    /* border: 5px solid black; */
+    padding: 1em 0em;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(187, 255, 120);
+    box-shadow:0 3mm 3mm rgb(87, 209, 16);
+    z-index: 3;
+
+}
+
+.user_issue .exit_issue{
+    position: absolute;
+    
+    /* top: 10em; */
+    left: 45em;
+    border-radius: 50%;
+    background: none;
+    transform: scale(60%);
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+
+    /* border: 15px; */
+}
+
+.user_issue .exit_issue:hover{
+    background-color: white;
+}
+
+.user_issue .user_issue_content{
+    border-radius: 15px ;
+    padding: 1em;
+    outline: none;
+    border: none;
+    background: none;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.user_issue .issue_submit{
+    width: 50%;
+    position: relative;
+    padding: 0.3em;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+
+    /* left: 6. 5em; */
+}
+
+.user_issue .issue_submit:hover{
+    background-color: cornflowerblue;
+    color: white;
+}

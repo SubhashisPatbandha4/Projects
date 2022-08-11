@@ -1,0 +1,122 @@
+body{
+    min-height: 100vh;
+overflow:scroll;
+    /* background-image: linear-gradient(#63D471,#233329); */
+    background-image: linear-gradient(#B2FEFA,#0ED2F7);    /* background-image: linear-gradient(#5aff15,#00b712); */
+}
+
+.nav_brand,.nav_content_switch, .nav_extra, .nav_search{
+    display: inline-block;
+}
+
+    
+
+.mmo_nav .nav_brand img{
+    width: 55%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.nav_content_switch{
+    /* margin-top: 2em; */
+    position: relative;
+    top: 0.6em;
+    right: 10em;
+}
+
+.nav_content_switch button{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    display: inline;
+    font-size: 1.4em;
+
+    background: transparent;
+    border: none;
+    background-color: rgb(223, 189, 240);
+    border-radius: 15px;
+
+    filter: drop-shadow(0 1mm 1mm rgb(160, 0, 210));
+
+    transition: all 0.3s;
+}
+
+.nav_content_switch button:hover{
+    /* background-color: rgb(178, 153, 191); */
+    background-color: rgb(160, 0, 210);
+    color: white;
+    /* filter: drop-shadow(0 1mm 1mm rgb(34, 246, 2)); */
+    filter: drop-shadow(0 2mm 2mm rgb(196, 105, 241));
+
+}
+
+.qna{
+    padding: 0.5em 1em;
+    margin-right: 1em;
+}
+
+.blog{
+    padding: 0.5em 4em;
+}
+
+.nav_search{
+    position: relative;
+    top: 0.65em;
+    right: 3.5em;
+
+    
+}
+
+.nav_search input{
+    filter: drop-shadow(0 0.7mm 0.7mm rgb(160, 0, 210));
+
+}
+
+.nav_search form button{
+    border-radius: 0.3em;
+    padding: 0.4em 0.8em;
+    border: none;
+    filter: drop-shadow(0 0.7mm 0.7mm rgb(160, 0, 210));
+
+}
+
+.nav_search form button:active{
+    filter: drop-shadow(0 0.7mm 0.7mm rgb(216, 87, 255));
+
+}
+
+.nav_extra{
+    /* font-size: 1.5em; */
+    position: relative;
+    top: 0.5em;
+    left: 20.5em;
+
+    border-radius: 50%;
+}
+
+.nav_extra button{
+    height: 2.6em;
+    width: 2.6em;
+    border-radius: 50%;
+    background-color: rgb(242, 90, 253);
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    filter: drop-shadow(0 1mm 1mm rgb(160, 0, 210));
+
+    transition: color 0.3s;
+
+}
+
+.nav_extra button:hover{
+    filter: drop-shadow(0 1.3mm 1.3mm rgb(78, 1, 101));
+    color: white;
+
+}
+
+button.my-2.my-sm-0{
+    background-color: rgb(244, 155, 247);
+}
+button.my-2.my-sm-0:hover{
+    background-color: rgb(137, 17, 192);
+    color:#ffffff
+}

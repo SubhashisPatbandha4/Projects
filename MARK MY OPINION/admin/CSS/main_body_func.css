@@ -1,0 +1,59 @@
+
+
+.admin_func{
+    text-align: center;
+    /* padding-left: 15em;
+    padding-right: 15em; */
+}
+
+.admin_func .func_btn{
+    position: relative;
+    left: 1em;
+}
+
+.admin_func button{
+    padding: 1em 2em;
+    font-size: 140%;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    box-shadow: 0 0.4em 0.8rem rgb(197, 11, 187) ;
+    transition: 0.2s;
+
+    /* font-weight: 500; */
+
+}
+
+.admin_func button:hover{
+    /* box-shadow: 0 0.4em 0.8rem rgb(232, 228, 29) ; */
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.admin_func .question{
+    top: 5em;
+    left: 7.5em;
+}
+
+.admin_func .blog{
+    top: 5em;
+    left: 14em;
+    padding-left: 2.9em;
+    padding-right: 2.9em;
+}
+
+.admin_func .report{
+    top: 12em;
+    left: -15.8em;
+    padding-left: 2.45em;
+    padding-right: 2.45em;
+}
+
+.admin_func .issue{
+    top: 12em;
+    left: -9.3em;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+}

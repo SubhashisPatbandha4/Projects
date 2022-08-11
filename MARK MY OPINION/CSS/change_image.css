@@ -1,0 +1,78 @@
+
+.popup{
+    position: absolute;
+  
+    left: 50%;
+color:white;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+
+    width: 250px;
+    height:200px;
+    padding: 20px 30px;
+    background-image: linear-gradient(blue,rgb(162, 0, 255));
+
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+
+    border-radius: 0.5em;
+/* 
+    transition: 2s; */
+                
+     backdrop-filter: blur(102px);
+
+	/* pointer-events: none; */
+	/* display: none; */
+
+    margin-left:-615px;
+    margin-top:-170px;
+    visibility: hidden;
+}
+
+.popup.active{
+    /* margin-left:-615px;
+    margin-top:-170px;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);*/
+
+    
+    /* transition: 2s; */
+    visibility: visible;
+}
+
+.popup .close_button{
+    position: absolute;
+    top :10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: coral;
+    color: #437bff;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.popup .form h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 20px;
+    font-size: 20px;
+    letter-spacing: px;
+}
+
+#change-image{
+    margin-left:55px;
+    font-family:tohma;color:white;
+    background-color:blue;
+    padding:10px;
+    width:fit-content;
+}
+#change-image:hover{
+    margin-left:55px;
+    font-family:tohma;color:white;
+    background-color:rgb(153, 0, 255);
+    padding:10px;
+    width:fit-content;
+    cursor:pointer;
+}

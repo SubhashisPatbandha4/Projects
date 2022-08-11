@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(189, 129, 245);
+    font-family: tahoma;
+    height: fit-content;
+  }
+
+
+/* porfile section */
+#profile-section{
+    
+  /* background-image: linear-gradient(rgb(17, 255, 29),rgb(251, 255, 2)); */
+    /* display:flex; */
+  
+    width:270px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+#profile-pic{
+  border-radius: 50%;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  margin-left: 40px;
+  margin-top: 20px;
+ border: 5px solid blueviolet;
+  
+
+}
+
+  .menubuttons{
+
+/* background-color: black; */
+display:inline-block;
+text-shadow: greenyellow;
+background-color:red;
+padding:10px;
+
+border-radius: 10px;
+
+}
+#usercontent{
+
+min-height:100px;
+width:1200px;
+/* background-color:white; */
+margin-left:250px;
+margin-top:-750px;
+
+height:fit-content;
+padding:0px;
+
+}
+.mmo_body{
+
+  width:1200px;
+  height: 90%;
+  /* border: 1px solid white;
+  filter: drop-shadow(0 1mm 1mm rgb(170, 58, 178)); */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+  
+

@@ -1,0 +1,32 @@
+.mmo_adminquestion{
+    width: fit-content;
+    margin: 3em auto;
+}
+
+.question_head{
+    width: fit-content;
+    margin: 1em auto;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.mmo_adminquestion textarea{
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 15px;
+    box-shadow: 0 0.4em 0.8rem rgb(197, 11, 187) ;
+    padding: 0.8em;
+}
+
+.mmo_adminquestion button{
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 15px;
+    box-shadow: 0 0.4em 0.8rem rgb(197, 11, 187) ;
+    padding: 0.8em 1.5em;
+    position: relative;
+    left: 1em;
+    top: -1.1em;
+}

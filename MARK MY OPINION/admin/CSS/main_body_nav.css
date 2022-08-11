@@ -1,0 +1,47 @@
+body{
+    /* max-height:100vh; */
+    /* background-image:linear-gradient(to right,#333399,#ff00cc); */
+    /* background-image:linear-gradient(to right,#54372f,#658715); */
+    background-color: powderblue;
+    padding: 0;
+    margin: 0;
+}
+
+.admin_brand{
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0em auto;
+    transform: scale(80%);
+    box-shadow: 0 0.5em 2rem rgb(197, 11, 187) ;
+    transition: 0.5s;
+
+
+}
+
+.admin_brand:hover{
+    background-color: white;
+    color: white;
+    box-shadow: 0 0.5em 2rem rgb(112, 7, 107) ;
+    cursor: pointer;
+
+}
+
+nav img{
+    position: relative;
+    left: -11em;
+    transform: scale(80%);
+    padding: 2em;
+    /* border: 5px solid black; */
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
+    border-radius: 15px;
+}
+
+.admin_brand .nav_head{
+    font-size: 500%;
+    position: absolute;
+    top: 0.5em;
+    left: 9.5em;
+    color: dodgerblue;
+}

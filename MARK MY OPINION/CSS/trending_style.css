@@ -1,0 +1,68 @@
+.trending{
+
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 500px;
+
+    background-color: rgb(107, 0, 0);
+    filter: drop-shadow(0 0 1rem crimson);
+    margin-left: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    left: -60%;
+    /* top: 25%; */
+}
+
+.trend_head{
+    padding-top: 5px;
+}
+
+.trend_topic{
+    /* padding: 5px; */
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    padding-left: 5px;
+
+    margin: 20px 0 20px 0;
+
+    font-size: 125%;
+
+    border-radius: 10px;
+
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.trend_button button{
+    padding: 30px;
+    font-size: 180%;
+    padding: 10px 50px;
+
+    margin-top: 100px;
+    margin-left: 20px;
+
+    color: white;
+    background-color: crimson;
+    border: none;
+    filter: drop-shadow(0 0 0.75rem rgb(151, 13, 41));
+
+    transition: 0.5s;
+
+}
+
+.trend_button button:hover{
+    background-color: rgb(100, 7, 26);
+}
+
+.trending#active{
+    transition: 1s;
+}
+
+.trending#trending.active{
+    left: 0%;
+    transition: 1s;
+}

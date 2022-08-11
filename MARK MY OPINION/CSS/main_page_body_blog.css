@@ -1,0 +1,187 @@
+*::-webkit-scrollbar-thumb {
+    background-color: #67c64a;
+    border-radius: 10px;
+}
+
+.mmo_body_blur#mmo_body_blur.active{
+    filter: blur(10px);
+    user-select: none;
+    pointer-events: none;
+}
+
+/* .mmo_body .mmo_blog_post {
+    text-align: center;
+
+} */
+
+.blog_post_show{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    user-select: none;
+    top: 8em;
+    left: 18em;
+    width: 62.2%;
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow:0 2mm 2mm rgb(87, 209, 16);
+    background-image: linear-gradient(#ffffff, #9ae02a);
+    /* background-image: linear-gradient( #9ae02a,#fff); */
+    transition: all 0.5s;
+
+
+}
+
+.blog_post_show textarea{
+    padding: 0.7em;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    outline: none;
+}
+
+.blog_post_show .blog_title textarea{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.blog_post_show button{
+    padding: 0.7em;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    position: relative;
+    left: 25em;
+    width: 10em;
+
+}
+
+.blog_post_show button:hover{
+    color: white;
+}
+
+.blog_post_show button:active{
+    transform: scale(0.9);
+}
+
+
+.blog_post_show#blog_post_show.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.mmo_body .mmo_blog_post button{
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    box-shadow:0 1mm 1mm rgb(99, 241, 17);
+
+    width: 90%;
+    position: relative;
+    top: -0.4em;
+    left: 3.2em;
+    font-weight: bold;
+}
+
+.mmo_body .mmo_blog_body{
+    box-shadow:0 2mm 2mm rgb(87, 209, 16);
+    /* filter: blur(); */
+
+}
+
+.mmo_body .mmo_blog_body .mmo_blog_heading{
+    text-decoration: underline;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space:hover{
+    box-shadow:0 2mm 2mm rgb(87, 209, 16);
+
+}
+
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_useranswer{
+    margin-bottom: 0.5em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction button{
+    font-size: 1em;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction button:hover{
+    font-size: 1.05em;
+}
+
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog__interaction .comments{
+    padding: 0em 1em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction .upvote:hover, 
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction .downvote:hover{
+    font-size: 1.05em;
+}
+
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction .report{
+    left: 55.5em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_blog_interaction .report:hover{
+    font-size:1em;
+    /* left: 48.5em; */
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_comment{
+    font-size: 0.8em;
+    margin-top: 0.4em;
+    display: none;
+    margin-top: 1.5em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_comment .user_comment_space .user_interaction button{
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_comment .user_comment_space{
+    margin-top: -1.5em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_comment .user_comment_space .user_interaction .report{
+    left: 95em;
+}
+
+.mmo_body .mmo_blog_body .mmo_user_blog .user_space .user_comment .user_comment_space .user_interaction form{
+    display: inline;
+}
+
+
+#blog-comment{
+    padding: 0.7em;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+}
+
+#blog-comment-button{
+    /* padding: 0.7em; */
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 1mm 1mm rgb(87, 209, 16);
+    position: relative;
+    left: 25em;
+    /* width: 10em; */
+    padding: 0.3em 1em;    
+    left: 49em;
+    top: -2.3em;
+    font-size: 120%;
+}
+
+#blog-comment-button:hover{
+    color: white;
+}

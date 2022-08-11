@@ -1,0 +1,353 @@
+.head{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding-left: 8%;
+}
+
+
+.tagline{
+    font-size: 30%;
+}
+
+.top_content{
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    filter: drop-shadow(0 0 1rem magenta);
+
+
+}
+.logo-1{
+    position: absolute;
+    transform: scale(0.18);
+    top: 0.5%;
+    left: 0.5%;
+
+    width: 11%;
+
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+			transform: rotate(0deg);
+            /* transform: scale(0.18); */
+	}
+	to {
+			transform: rotate(359deg);
+            /* transform: scale(0.18); */
+
+	}
+}
+
+.l12{
+    position: absolute;
+    transform: scale(0.2);
+    left: -4.7%;
+    top: 0.8%;
+}
+
+.main_btn{
+    font-size: 120%;
+
+    width: 18%;
+
+    padding-top: 2em;
+
+    filter: drop-shadow(0 0 0.25rem lightgreen);
+}
+
+.trend_btn{
+    display: inline-flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+
+    width: 12%;
+    background-color: red;
+    font-weight: 500;
+    padding-top: 0.6%;
+    padding-bottom: 1%;
+
+    padding-left: 0.6%;
+
+    color: white;
+    filter: drop-shadow(0 0 0.5rem crimson);
+
+    transition: background-color 1s ,color 1s;
+}
+
+.separate_btn{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.trend_btn:hover{
+    background-color: darkred;
+    color: white;
+}
+
+.prochat{
+    position: relative;
+    left: 70%;
+    filter: drop-shadow(0 0 0.25rem green);
+}
+
+.main_content{
+
+    height: 548px;
+    /* height: 80vh; */
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    /* border: 2px solid magenta; */
+
+    /* filter: blur(1px); */
+    /* filter: drop-shadow(0 0 0.25rem brown); */
+
+
+}
+
+
+
+body{
+    background-image: linear-gradient(45deg, blueviolet, rgb(249, 236, 255));
+    background-repeat: no-repeat;
+  min-height: 1000px;
+	animation: gradient 5s ease infinite;
+	background-size: 400% 400%;
+  height:fit-content;
+
+	font-family: Koulen, cursive;
+
+    overflow: hidden;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+html{
+    max-height: 100vh;
+}
+
+
+
+
+/* 
+body{
+    background-image: linear-gradient( to right,rgb(50, 50, 255),rgb(87, 87, 247),rgb(50, 50, 252));
+} */
+
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2400d6 #ffffff;
+  }
+
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2400d6;
+    border-radius: 10px;
+  }
+
+  .questions{
+    font-weight: 700;
+    font-size: 180%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 5px ; */
+
+    border-radius: 10px;
+
+    transition: all 0.6s;
+  }
+
+  .my_thought textarea{
+    border: 2px solid rgb(192, 1, 192);
+    outline: 0;
+    background: white;
+    border-radius: 10px;
+    padding:5px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #343434;
+    background: transparent;
+  }
+
+  .user_name{
+    display: block;
+  }
+
+  .user_answer{
+    display: block;
+    font-size: 120%;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+
+    border-radius: 10px;
+  }
+
+  .question_answer_block{
+    border-bottom: 2px solid pink;
+  }
+
+  .show_more{
+    position: relative;
+    left: 75%;
+  }
+
+  .answer_btn{
+    background: transparent;
+  }
+
+  .upvote::before{
+    content: "👍";
+}
+
+.downvote::before{
+    content: "👎";
+}
+
+.user_name a{
+    color: rgb(93, 0, 98);
+}
+
+.upvote, .downvote{
+  background-color: rgb(201, 0, 201);
+} 
+
+.sports:hover{
+  filter: drop-shadow(0 0 0.3rem rgb(72, 0, 255));
+  
+}
+.politics:hover{
+  filter: drop-shadow(0 0 0.3rem rgb(255, 255, 255));
+  
+}
+.entertainment:hover{
+  filter: drop-shadow(0 0 0.3rem rgb(249, 255, 134));
+  
+}
+.tech:hover{
+  filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+  
+}
+.uu:hover{
+  filter: drop-shadow(0 0 0.3rem rgb(0, 255, 170));
+  
+}
+
+.sports{
+  transition: drop-shadow 5s;
+}
+
+.main_btn{
+  transition: drop-shadow 5s;
+}
+
+.questions:hover{
+  box-shadow: 0px 0px 20px magenta;
+  font-size: 185%;
+}
+
+.user_answer:hover{
+  box-shadow: 0px 0px 20px rgb(207, 0, 207);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_stuff{
+  border-radius: 0.5rem;
+  filter: drop-shadow();
+}
+
+.nav_stuff:hover{
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.nav_stuff:active{
+  background-color: cadetblue;
+}
+
+.main_nav{
+  background: transparent;
+  position: absolute;
+
+  left: 91%;
+}
+
+body{
+  height: 100vh;
+  background-color: aqua;
+}
+
+#nav_collapse{
+  background: transparent;
+}
+
+.ham_burg{
+  margin-left: 97%;
+  transform: scale(0.75);
+}

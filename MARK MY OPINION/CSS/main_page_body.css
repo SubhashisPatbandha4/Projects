@@ -1,0 +1,213 @@
+.mmo_body_blur#mmo_body_blur.active{
+    filter: blur(10px);
+    user-select: none;
+    pointer-events: none;
+}
+.mmo_body{
+    margin: 2.5em auto;
+    width: 75%;
+    height: 90%;
+    /* border: 1px solid white;
+    filter: drop-shadow(0 1mm 1mm rgb(170, 58, 178)); */
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    
+
+}
+
+.mmo_body .mmo_askquestion button{
+    padding: 0.6em 1.8em;
+    position: relative;
+    top: -0.95em;
+    left: 1em;
+    border: none;
+    background: transparent;
+    box-shadow:0 1mm 1mm rgb(160, 0, 210);
+    border-radius: 15px;
+}
+
+.mmo_body .mmo_askquestion button:hover{
+    color: white;
+}
+
+.mmo_body .mmo_askquestion textarea{
+    background: transparent;
+    border-radius: 15px;
+    border: none;
+    box-shadow:0 1mm 1mm rgb(196, 105, 241);
+    padding: 0.7em;
+}
+
+
+.mmo_body .mmo_question_answer_body{
+
+    padding: 1em;
+    /* border: 2px solid black; */
+    box-shadow:0 2mm 2mm rgb(196, 105, 241);
+    border-radius: 15px;
+    margin-bottom: 1em;
+    /* transition: opacity 1s; */
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_post{
+    /* opacity: 0; */
+
+    margin-bottom: 0.2em;
+    /* visibility: collapse; */
+    /* display: none; */
+    /* transition: all 1s; */
+}
+
+.mmo_body .mmo_question_answer_body:hover .mmo_user_post{
+    /* opacity: 1; */
+    /* visibility: visible; */
+    /* display: block; */
+    /* transition: all 1s; */
+}
+
+.mmo_body .mmo_question_answer_body .mmo_question{
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white;
+    margin-left: 0.5em;
+}
+
+
+.mmo_body .mmo_question_answer_body .mmo_user_post textarea{
+    background: transparent;
+    border: none;
+    box-shadow:0 0.8mm 0.8mm rgb(196, 105, 241);
+    border-radius: 15px;
+    padding: 0.5em;
+    outline: none;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_post .question_post{
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 0.5mm 0.5mm rgb(196, 105, 241);
+
+    position: relative;
+    top: -0.5em;
+    left: 1em;
+    padding: 0.3em 1em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_post .question_post:hover{
+    color: white;
+}
+
+.user_warning{
+    color: red;
+    width: fit-content;
+    display: block;
+    padding-left: 1em;
+    /* background-color: white; */
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(160, 38, 38);
+}
+
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space{
+    margin-bottom: 0.7em;
+    padding: 0.5em;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space:hover{
+    box-shadow:0 2mm 2mm rgb(196, 105, 241);
+
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_username{
+    font-size: 1.05em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_useranswer{
+    font-size: 1.3em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction button{
+    font-size: 0.8em;
+    background: transparent;
+    border-radius: 15px;
+    /* border: 1px solid blueviolet; */
+    border: none;
+    box-shadow:0 0.7mm 0.7mm rgb(196, 105, 241);
+
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .upvote,
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .downvote{
+    padding:0.2 0.5em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .upvote:hover,
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .downvote:hover{
+    font-size: 0.9em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .upvote:focus,
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .downvote:focus{
+    background-color: rgb(136, 21, 136);
+    color: white;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .upvote.active,
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .downvote.active{
+    background-color: rgb(136, 21, 136);
+    color: white;
+}
+
+
+
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .report{
+    width: 7%;
+    position: relative;
+    left: 67.4em;
+    visibility: hidden;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space:hover .report{
+    visibility: visible;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction .report:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction form{
+    display: inline;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction div{
+    font-size: 0.8em;
+    background: transparent;
+    border-radius: 15px;
+    /* border: 1px solid blueviolet; */
+    border: none;
+    box-shadow:0 0.7mm 0.7mm rgb(196, 105, 241);
+    width: 3%;
+    display: inline;
+    padding: 0.5em;
+}
+
+.mmo_body .mmo_question_answer_body .mmo_user_answer .user_space .user_interaction div input{
+    background: none; 
+    border: none;
+    outline: none;
+     pointer-events: none;
+     display: inline;
+     width: inherit;
+}
+
+

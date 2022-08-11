@@ -1,0 +1,39 @@
+.question_head{
+    width: fit-content;
+    margin: 1em auto;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.user_report{
+    /* border: 5px solid black; */
+    box-shadow: 0 0.4em 0.8rem rgb(197, 11, 187) ;
+
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.user_name, .user_content{
+    font-size: 125%;
+} 
+
+.admin_action{
+    padding: 0.5em;
+}
+
+.admin_action button{
+    background: none;
+    border: none;
+    box-shadow: 0 0.4em 0.8rem rgb(197, 11, 187) ;
+    margin-right: 1em;
+    transition: 0.2s;
+    border-radius: 15px;
+    padding: 0.5em 1em;
+
+
+}
+
+.admin_action button:hover{
+    background-color: blueviolet;
+    color: white;
+}
